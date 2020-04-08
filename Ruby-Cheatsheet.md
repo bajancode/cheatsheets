@@ -58,6 +58,7 @@ my_array = [a,b,c,d,e]
 my_array[1] –– b
 my_array[2..-1] # c , d , e
 multi_d = [[0,1],[0,1]]
+multi_d.flatten = [0,1,0,1]
 [1, 2, 3] << 4 # [1, 2, 3, 4] same as [1, 2, 3].push(4)
 ```
 
